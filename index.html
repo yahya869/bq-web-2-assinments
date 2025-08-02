@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assinment-1 (MCQ's)</title>
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub User Info</title>
 </head>
 <body>
+    
+        <h1>GitHub User Finder</h1>
+        <div class="input">
+            <input type="text" id="userName">
+            <input type="button" onclick="getGithubUser()" value="Search">
+            <!-- <button onclick="getGithubUser"></button> -->
+        </div>
+        <div class="cart" id="card">
+            <img id="img" src="" alt="">
+            <div class="info">
+                <h3 id="name"></h3>
+                <p id="bio"></p>
+                <p><span>Email : </span><span id="email"> </span></p>
+                <p><span>Type : </span><span id="type"> </span></p>
+                <p><span>Created At : </span><span id="created_at"> </span></p>
+                <p><span>Updated At : </span><span id="updated_at"> </span></p>
+                <p><span>Location : </span><span id="location"> </span></p>
+                <p><span>Company Name : </span><span id="company"> </span></p>
+                <p><span>Followers : </span><span id="followers"> </span></p>
+                <p><span>Following : </span><span id="following"> </span></p>
+                <p><span>Public Repos : </span><span id="public_repos"> </span></p>
+                <p><span>public Gists : </span><span id="public_gists"> </span></p>
+                <p><span>User View Type : </span><span id="user_view_type"> </span></p>
+                <a id="profile_link" href="" target="_blank">View Profile</a>
+            </div>
+        </div>
     <script src="./app.js"></script>
 </body>
 </html>
