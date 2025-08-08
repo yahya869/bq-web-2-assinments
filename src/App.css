@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+#root {
+    margin: 0;
+    text-align: center;
+}
+
+/* Base container */
+.container {
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    transition: background-color 0.8s ease;
+}
+
+
+/* Background for bulb OFF */
+.bg-off {
+    background-color: white;
+}
+
+/* Background for bulb ON */
+.bg-on {
+    background-image: radial-gradient(circle,#fae589,#fae589,#fff5c7 );
+    /* light yellow glow */
+}
+
+.h1-on {
+    color: red;
+}
+.h1-off {
+    color: rgb(49, 214, 49);
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button {
+    
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease;
+    width: 30%;
+}
+.b-on {
+    background-color: red;
+    color: white;
+    box-shadow: red 0rem 0rem 1rem ;
+}
+.b-off {
+    background-color: rgb(49, 214, 49);
+    color: white;
+    box-shadow: rgb(49, 214, 49) 0rem 0rem 1rem ;
+}
+
+
+
